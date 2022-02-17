@@ -1,0 +1,120 @@
+.settings-container{
+    display:flex;
+    height:500px;
+    max-width:800px;
+    margin:50px auto;
+    border: 0.1px solid rgba(0, 0, 0, 0.192);
+   
+}
+
+.settings-link-container {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    width:250px;
+    border-right: 0.1px solid rgba(0, 0, 0, 0.171);
+}
+.settings-link{
+    height:auto;
+    width:auto;
+    margin:0 10px;
+    margin-top:15px;
+    font-size:15px;
+    text-decoration:none;
+    padding:10px;
+    border-radius: 2px;
+    color:rgba(0, 0, 0, 0.582);
+    font-weight: 600;
+  
+}
+
+.settings-link:hover{
+    background-color:rgba(0, 0, 0, 0.116)
+}
+
+
+.change-name-heading , .change-pass-heading ,.delete-acc-heading{
+    opacity:0.7;
+    margin:20px 10px;
+    padding:5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.change-name-form , .change-pass-containers ,.delete-acc-form{
+    margin:20px 10px;
+}
+
+.change-name-form label ,  .change-pass-containers label ,.delete-acc-form label{
+    padding:5px;
+  
+}
+
+.change-name-form input , .change-pass-containers input ,.delete-acc-form input{
+    padding:5px;
+    outline:none;
+    border:0.1px solid rgba(0, 0, 0, 0.363);
+
+}
+
+.change-name-form button , .delete-acc-form button {
+    margin:0 5px;
+    padding:6px;
+    border:none;
+    background-color:#7bd3f9;
+    color:white;
+    border-radius:3px;
+    background-color:#7bd3f9;
+    box-shadow: 1px 1px 3px 3px rgba(51, 50, 50, 0.205);
+}
+
+
+.old-pass input{
+    margin-left: 36px;
+}
+.new-pass input{
+    margin-left: 25px;
+
+}
+
+.change-pass-form button{
+    margin:10px 15px;
+    padding:10px;
+    border:none;
+    background-color:#7bd3f9;
+    color:white;
+    border-radius:3px;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px 3px rgba(51, 50, 50, 0.205);
+}
+
+.change-pass-form button:hover ,.change-name-form button:hover ,.delete-acc-form button:hover{ 
+    cursor :pointer;
+    background-color:#55a7ca;
+}
+
+.delete-acc-confirmation {
+    display:flex;
+    margin:20px 5px;
+   
+}
+
+.delete-acc-confirmation p{
+   font-size:11px;
+   margin:0 5px;
+}
+.delete-acc-confirmation input{
+    
+    margin-top:2px;
+ }
+
+ .settings-error-container{
+     margin:10px 5px;
+ }
+.settings-error-container p {
+   
+    color: red;
+    font-size:11px;
+}
+

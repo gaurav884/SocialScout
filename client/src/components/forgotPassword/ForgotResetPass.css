@@ -1,0 +1,150 @@
+.forgot-password-container{
+    color:rgba(0, 0, 0, 0.692);
+    background-color: #f4f6ff9a;
+    position:relative;
+    width:500px;
+    margin: 100px auto;
+    height: auto;
+    border:none;
+    box-shadow:1px 1px 5px 5px rgba(77, 73, 73, 0.075);
+    border-radius: 5px;
+    height:200px;
+    overflow:hidden;
+    
+
+}
+
+.forgot-password-container-heading{
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 20px;
+    width:100%;
+    padding:20px;
+    color:rgba(255, 253, 253, 0.795);
+    background-color:#4B6587;
+  
+}
+.forgot-password-input-button-container{
+    text-align: center;
+}
+
+.forgot-password-input-button-container input{
+    width: 280px;
+    outline:none;
+    border:none;
+    height:40px;
+    border: 0.1px solid rgba(71, 68, 68, 0.144);
+    border-radius: 5px;
+    padding:5px;
+}
+
+.forgot-password-input-button-container button{
+    width:70px;
+    margin:5px 5px;
+    border:none;
+    height:40px;
+    border-radius: 5px;
+    background-color:#4B6587;
+    color:white;
+    font-weight:bold;
+    opacity: 0.9;
+}
+
+ .forgot-password-email-sent-container p{
+     margin:15px 10px;
+     padding:10px;
+    
+ }
+
+ .forgot-password-notfound-error{
+     text-align:center;
+     margin:15px 10px;
+     padding:10px;
+     color:red;
+     font-size: 13px;
+     
+ }
+
+
+
+ 
+
+
+.forgot-password-sucess-icon-container{
+   height:60px;
+   width:60px;
+   border-radius:50%;
+   overflow: hidden;
+}
+
+
+.forgot-password-sucess-icon-container svg{
+    height:100%;
+    width:100%;
+    background-color: green;
+    color:white;
+    
+ }
+
+ .reset-password-container{
+
+    color:rgba(0, 0, 0, 0.692);
+    background-color: #f4f6ff9a;
+    position:relative;
+    width:500px;
+    margin: 100px auto;
+   
+    border:none;
+    box-shadow:1px 1px 5px 5px rgba(77, 73, 73, 0.075);
+    border-radius: 5px;
+    min-height:200px;
+    overflow:hidden;
+    
+
+}
+
+.reset-password-newpass , .reset-password-confirmpass{
+    margin:10px 10px;
+    padding:5px;
+    display:flex;
+}
+
+.reset-password-newpass label , .reset-password-confirmpass label{
+    padding:5px;
+    width: 32%;
+}
+
+.reset-password-newpass input , .reset-password-confirmpass input{
+    width: 68%;
+    height:100%;
+    border:none;
+    outline:none;
+    border-radius: 3px;
+    height:33px;
+    padding:5px;
+    margin:0 5px;
+    border:0.1px solid rgba(0, 0, 0, 0.151);
+    font-weight:400;
+}
+
+.reset-password-container button{
+    margin:10px 15px;
+    padding:5px;
+    width:70px;
+   
+    border:none;
+    height:40px;
+    border-radius: 5px;
+    background-color:#4B6587;
+    color:white;
+    font-weight:bold;
+    opacity: 0.9;
+}
+
+.reset-pass-token-expired-error{
+    margin:20px auto;
+    text-align:center;
+    font-size: 18px;
+}

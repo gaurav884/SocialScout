@@ -1,0 +1,32 @@
+.sign-up-container{
+    max-width: 600px;
+    height: 400px;
+    margin:100px auto;
+    text-align:center;
+}
+
+.sign-up-heading-brand{
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+    margin:10px auto;
+}
+
+.sign-up-heading-signin{
+    margin:10px auto;
+    text-align: center;
+}
+.sign-up-email-container{
+    margin:10px auto;
+}
+
+.sign-up-passoword-container{
+    margin:10px auto;
+    text-align: center;
+}
+
+.sign-up-name-container{
+    margin:10px auto;
+    text-align: center;
+
+}
